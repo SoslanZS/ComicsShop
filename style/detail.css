@@ -1,0 +1,48 @@
+.detail{
+  display: flex;
+  padding-left: 100px;
+}
+
+.detail .btn_get-basket{
+  background-color: #7AA3B0;
+  color: white;
+  font-size: 32px;
+  padding: 20px 0;
+  width: 599px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.detail .text-bold-italic{
+  font-style: italic;
+  font-weight: 700;
+}
+
+.detail .descriprion_container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 120px;
+}
+
+.detail .big-text{
+  font-size: 40px;
+  color: #465060;
+}
+
+.detail .descriprion{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: space-between;
+  padding-left: 96px;
+}
+
+.detail .small-text{
+  color: #465060;
+  font-size: 24px;
+}
+
+.detail .image{
+  width: 340px;
+}
