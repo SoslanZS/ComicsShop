@@ -1,0 +1,60 @@
+/* REGISTER */
+
+.register div.big-text{
+  font-size: 40px;
+  color: #465060;
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+.register{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register .auth-text{
+  font-size: 20px;
+  font-style: normal;
+font-weight: 700;
+  color: #456267;
+}
+
+.register .auth{
+  border: 1px solid #456267;
+  border-radius: 15px;
+  width: 666px;
+  height: 50px;
+}
+
+.register .container_input-text{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+input[type="checkbox"].auth{
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.register .btn_register{
+  background-color: #7AA3B0;
+  border-radius: 15px;
+  width: 666px;
+  margin-top: 75px;
+  height: 80px;
+  font-style: italic;
+  font-weight: 700;
+  color: white;
+  font-size: 32px;
+}
+
+.register .form{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+/* REGISTER  END*/

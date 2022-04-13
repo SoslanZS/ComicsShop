@@ -1,3 +1,5 @@
+/* DETAIL END*/
+
 .detail{
   display: flex;
   padding-left: 100px;
@@ -46,3 +48,5 @@
 .detail .image{
   width: 340px;
 }
+
+/* DETAIL END*/
