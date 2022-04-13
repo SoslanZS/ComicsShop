@@ -16,10 +16,11 @@
 }
 button,a
 {
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
+	text-decoration: none;
+	cursor: pointer;
+	border: none;
 }
+p,h1,h2,h3,h4,a,button{text-align: center;}
 html, body
 {
 	height: 100%;

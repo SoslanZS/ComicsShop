@@ -28,18 +28,19 @@
     color: #465060;
 }
 
-.texts {
+.map__texts
+{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 60px;
     margin-left: 50px;
 
+
     width: 427px;
     height: 200px;
 }
-
-.texts span {
+.map__texts span {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
