@@ -1,0 +1,147 @@
+header
+{
+	padding: 18px 0;
+	border-bottom: 1px solid #456267;
+}
+.header
+{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__burger-list
+{
+	display: none;
+}
+.header__navigation
+{
+	margin-right: 50px;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #456267;
+	background-color: rgba(0,0,0,0);
+}
+.header__logo-description
+{
+	font-style: italic;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #456267;
+}
+.header__login
+{
+	background: #7AA3B0;
+	border-radius: 15px;
+	padding: 12px 27px;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+	transition: .3s;
+}
+.header__login:hover
+{
+	transition: .3s;
+	transform: translateY(-5px);
+}
+.header__burger-icon, 	.header__burger-icon-wrapper
+{
+	display: none;
+}
+@media(max-width: 1024px)
+{
+	.header__navigation
+	{
+		margin-right: 15px;
+	}
+}
+@media(max-width: 768px)
+{
+	.header__burger-icon-wrapper
+	{
+		display: flex;
+		padding: 10px 5px;
+		cursor: pointer;
+	}
+	.header__burger-icon
+	{
+		display: flex;
+		background-color: #456267;
+		width: 35px;
+		height: 3px;
+		position: relative;
+	}
+	.header__burger-icon::before
+	{
+		position: absolute;
+		content: '';
+		top: -7px;
+		background-color: #456267;
+		width: 35px;
+		height: 3px;
+	}
+	.header__burger-icon::after
+	{
+		position: absolute;
+		content: '';
+		top: 7px;
+		background-color: #456267;
+		width: 35px;
+		height: 3px;
+	}
+	.header__navigation-wrapper
+	{
+		display: none;
+	}
+	.header__burger-list
+	{
+		position: absolute;
+		top: 0;
+		right: 10px;
+		display: flex;
+		border-radius: 20px;
+		background-color: white;
+		padding: 20px;
+		flex-direction: column;
+		width: 335px;
+		box-shadow: 0 0 10px 2px rgba(69,98,103,0.2)
+	}
+	.header__burger-list .header__navigation
+	{
+		margin: 0;
+		padding: 20px 0;
+		border-bottom: 1px solid #456267;
+	}
+	.header__burger-list .header__navigation--last
+	{
+		border: none;
+		margin-bottom: 40px;
+	}
+	.header__burger-close
+	{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		align-self: flex-end;
+		background-color: red;
+		border-radius: 15px;
+		padding: 5px;
+		width: 40px;
+		height: 40px;
+		color: white;
+		cursor: pointer;
+	}
+}
+@media(max-width: 375px)
+{
+	.header__burger-list
+	{
+		width: 100%;
+		right: 0;
+	}
+}
