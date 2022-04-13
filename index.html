@@ -9,24 +9,54 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <div id="app">
+        <header>
 
-    </header>
-    <main>
-        <section id="about-as" class="slogan container">
-            <h1 class="slogan__title">New day - new story</h1>
-            <h3 class="slogan__text">Do you collect comics? It's funny. - Amusing? This is a hobby of real men... a little with greetings ...</h3>
-            <h2 class="slogan__subtitle">Новинки</h2>
-            <div class="slider">
-                <div class="slider__inner">
-                    <img src="" alt="">
-                    <p></p>
+        </header>
+        <main>
+            <section id="about-as" v-if="page === 'about-as'" class="slogan container">
+                <div class="slogan__text-container">
+                    <h1 class="slogan__title">New day - new story</h1>
+                    <h3 class="slogan__text">Do you collect comics? It's funny. - Amusing? This is a hobby of real men... a little with greetings ...</h3>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer>
+                <h2 class="slogan__subtitle">Новинки</h2>
+                <div class="slider">
+                    <div class="slider__arrow prev">
+                        <img src="/img/arrow.png" alt="">
+                    </div>
+                    <div class="slider__arrow next">
+                        <img src="/img/arrow.png" alt="">
+                    </div>
+                    <div class="slider__container">
+                        <div class="slider__item">
+                            <img src="img/dad.png" alt="">
+                            <p>Dedpool Yoohhhooooo!!!</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/dad.png" alt="">
+                            <p>Dedpool Yoohhhooooo!!!</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/dad.png" alt="">
+                            <p>Dedpool Yoohhhooooo!!!</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/dad.png" alt="">
+                            <p>Dedpool Yoohhhooooo!!!</p>
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/dad.png" alt="">
+                            <p>Dedpool Yoohhhooooo!!!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
 
-    </footer>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="script.js"></script>
 </body>
 </html>

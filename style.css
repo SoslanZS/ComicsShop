@@ -1,4 +1,4 @@
-.slogan
+.slogan__text-container
 {
     display: flex;
     justify-content: space-between;
@@ -25,9 +25,58 @@
 }
 .slogan__subtitle
 {
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 58px;
     color: #456267;
+}
+.slider{position: relative;}
+.slider__container
+{
+    display: flex;
+    column-gap: 50px;
+    overflow: hidden;
+}
+.slider__item
+{
+    max-width: 365px;
+    width: 100%;
+}
+.slider__item img
+{
+    object-fit: cover;
+}
+.slider__item p
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 39px;
+    color: #7AA3B0;
+}
+.slider__arrow
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background-color: #7AA3B0;
+    border-radius: 50%;
+    z-index: 100;
+}
+.slider__arrow.prev
+{
+    left: 0;
+    transform: translateX(-50%);
+}
+.slider__arrow.next
+{
+    right: 0;
+    transform: translateX(50%) rotate(180deg);
 }
