@@ -1,0 +1,33 @@
+.slogan
+{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 160px;
+    padding-top: 115px;
+    margin-bottom: 180px;
+}
+.slogan__title
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    color: #456267;
+}
+.slogan__text
+{
+    padding-top: 90px;
+    max-width: 455px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #7AA3B0;
+}
+.slogan__subtitle
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #456267;
+}
