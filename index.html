@@ -20,18 +20,18 @@
                     </div>
 
                     <div class="header__navigation-wrapper">
-                        <button class="header__navigation">О нас</button>
-                        <button class="header__navigation">Каталог</button>
-                        <button class="header__navigation">Корзина</button>
-                        <button class="header__navigation">Где нас найти</button>
-                        <button class="header__login">Войти</button>
+                        <button class="header__navigation" v-if="page!='about-as'" @click="page='about-as'">О нас</button>
+                        <button class="header__navigation" v-if="page!='catalog'" @click="page='catalog'">Каталог</button>
+                        <button class="header__navigation" v-if="page!='basket'" @click="page='basket'">Корзина</button>
+                        <button class="header__navigation" v-if="page!='our-place'" @click="page='our-place'">Где нас найти</button>
+                        <button class="header__login" v-if="page!='authorization'" @click="page='authorization'">Войти</button>
                     </div>
-                    <div class="header__burger-icon-wrapper">
+                    <div class="header__burger-icon-wrapper" @click="burgerActive=!burgerActive">
                         <div class="header__burger-icon"></div>
                     </div>
 
-                    <div class="header__burger-list" style="visibility: hidden;">
-                        <button class="header__burger-close">X</button>
+                    <div class="header__burger-list" v-if="burgerActive">
+                        <button class="header__burger-close"  @click="burgerActive=false">X</button>
                         <button class="header__navigation">О нас</button>
                         <button class="header__navigation">Каталог</button>
                         <button class="header__navigation">Корзина</button>

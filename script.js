@@ -3,6 +3,14 @@ const App = Vue.createApp({
     {
         return {
             page: 'about-as',
+            // about-as
+            // catalog
+            // basket
+            // our-place
+            // registration
+            // authorization
+
+            burgerActive: false,
             images: 
             [
                 {way: 'img/dad.png'},
