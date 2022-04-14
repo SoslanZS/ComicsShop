@@ -13,10 +13,10 @@ const App = Vue.createApp({
             burgerActive: false,
             images: 
             [
-                {way: 'img/dad.png'},
-                {way: 'img/dad.png'},
-                {way: 'img/dad.png'},
-                {way: 'img/dad.png'},
+                {way: 'img/buket.png'},
+                {way: 'img/buket.png'},
+                {way: 'img/buket.png'},
+                {way: 'img/buket.png'},
             ],
         }
     },

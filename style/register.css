@@ -1,5 +1,9 @@
 /* REGISTER */
-
+.form
+{
+  max-width: 500px;
+  width: 100%;
+}
 .register div.big-text{
   font-size: 40px;
   color: #465060;
@@ -17,18 +21,17 @@
 .register .auth-text{
   font-size: 20px;
   font-style: normal;
-font-weight: 700;
+  font-weight: 700;
   color: #456267;
 }
 
 .register .auth{
   border: 1px solid #456267;
   border-radius: 15px;
-  width: 666px;
   height: 50px;
 }
 
-.register .container_input-text{
+.form_input-text{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -41,10 +44,9 @@ input[type="checkbox"].auth{
   margin-top: 5px;
 }
 
-.register .btn_register{
+.register__btn{
   background-color: #7AA3B0;
   border-radius: 15px;
-  width: 666px;
   margin-top: 75px;
   height: 80px;
   font-style: italic;
@@ -57,5 +59,10 @@ input[type="checkbox"].auth{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 768px)
+{
+  .register__btn{font-size: 28px;}
 }
 /* REGISTER  END*/
