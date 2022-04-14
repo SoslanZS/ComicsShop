@@ -13,7 +13,10 @@ footer
 {
 	display: flex;
 }
-	
+.footer__links-wrapper
+{
+	align-items: center;
+}
 .footer__links-wrapper>p
 {
 	margin-right: 21px;
@@ -37,6 +40,17 @@ footer
 	font-size: 24px;
 	line-height: 29px;
 	color: #456267;
+}
+.footer__images-wrapper
+{
+	width: 60px;
+	height: 60px;
+}
+.footer__images-wrapper>img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 @media(max-width: 768px)
 {
