@@ -3,18 +3,19 @@ const App = Vue.createApp({
     {
         return {
             page: 'about-as',
-            slider: document.querySelector('.slider'),
         }
     },
-    methods: {
+    methods:{
         sliderNext()
         {
-
+            const width = this.$refs.slider;
+            const sliderEl = this.$ref.sliderItem;
+            console.log(sliderEl);
         },
     },
     mounted()
     {
-        console.log(this.slider); 
+        this.sliderNext();
     }
 })
 

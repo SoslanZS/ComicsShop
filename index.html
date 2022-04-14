@@ -42,13 +42,17 @@
             </div>
         </header>
         <main>
-            <section id="about-as" v-if="page === 'about-as'" class="slogan container">
+            <section
+                id="about-as"
+                v-if="page === 'about-as'"
+                class="slogan container"
+            >
                 <div class="slogan__text-container">
                     <h1 class="slogan__title">New day - new story</h1>
                     <h3 class="slogan__text">Do you collect comics? It's funny. - Amusing? This is a hobby of real men... a little with greetings ...</h3>
                 </div>
                 <h2 class="slogan__subtitle">Новинки</h2>
-                <div class="slider">
+                <div class="slider" ref="slider">
                     <div class="slider__arrow prev">
                         <img src="/img/arrow.png" alt="">
                     </div>
@@ -56,23 +60,23 @@
                         <img src="/img/arrow.png" alt="">
                     </div>
                     <div class="slider__container">
-                        <div class="slider__item">
+                        <div class="slider__item" ref="sliderItem">
                             <img src="img/dad.png" alt="">
                             <p>Dedpool Yoohhhooooo!!!</p>
                         </div>
-                        <div class="slider__item">
+                        <div class="slider__item" ref="sliderItem">
                             <img src="img/dad.png" alt="">
                             <p>Dedpool Yoohhhooooo!!!</p>
                         </div>
-                        <div class="slider__item">
+                        <div class="slider__item" ref="sliderItem">
                             <img src="img/dad.png" alt="">
                             <p>Dedpool Yoohhhooooo!!!</p>
                         </div>
-                        <div class="slider__item">
+                        <div class="slider__item" ref="sliderItem">
                             <img src="img/dad.png" alt="">
                             <p>Dedpool Yoohhhooooo!!!</p>
                         </div>
-                        <div class="slider__item">
+                        <div class="slider__item" ref="sliderItem">
                             <img src="img/dad.png" alt="">
                             <p>Dedpool Yoohhhooooo!!!</p>
                         </div>
