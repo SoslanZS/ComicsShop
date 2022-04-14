@@ -80,3 +80,30 @@
     right: 0;
     transform: translateX(50%) rotate(180deg);
 }
+@media(max-width: 1270px)
+{
+    .slogan__text-container
+    {
+        flex-direction: column;
+    }
+    .slogan__text
+    {
+        align-self: center;
+    }
+}
+@media(max-width: 768px)
+{
+    .slogan__title
+    {
+        font-size: 64px;
+    }
+    .slogan__text
+    {
+        padding-top: 40px;
+    }
+    .slogan__text-container
+    {
+        padding-top: 70px;
+        margin-bottom: 70px;
+    }
+}
