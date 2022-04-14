@@ -44,6 +44,7 @@ header
 	line-height: 24px;
 	color: #FFFFFF;
 	transition: .3s;
+	margin-top: 40px;
 }
 .header__login:hover
 {
@@ -117,11 +118,6 @@ header
 		margin: 0;
 		padding: 20px 0;
 		border-bottom: 1px solid #456267;
-	}
-	.header__burger-list .header__navigation--last
-	{
-		border: none;
-		margin-bottom: 40px;
 	}
 	.header__burger-close
 	{
