@@ -3,6 +3,13 @@ const App = Vue.createApp({
     {
         return {
             page: 'about-as',
+            images: 
+            [
+                {way: 'img/dad.png'},
+                {way: 'img/dad.png'},
+                {way: 'img/dad.png'},
+                {way: 'img/dad.png'},
+            ],
         }
     },
     methods:{

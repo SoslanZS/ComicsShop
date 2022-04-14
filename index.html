@@ -61,24 +61,8 @@
                         <img src="/img/arrow.png" alt="">
                     </div>
                     <div class="slider__container">
-                        <div class="slider__item" ref="sliderItem">
-                            <img src="img/dad.png" alt="">
-                            <p>Dedpool Yoohhhooooo!!!</p>
-                        </div>
-                        <div class="slider__item" ref="sliderItem">
-                            <img src="img/dad.png" alt="">
-                            <p>Dedpool Yoohhhooooo!!!</p>
-                        </div>
-                        <div class="slider__item" ref="sliderItem">
-                            <img src="img/dad.png" alt="">
-                            <p>Dedpool Yoohhhooooo!!!</p>
-                        </div>
-                        <div class="slider__item" ref="sliderItem">
-                            <img src="img/dad.png" alt="">
-                            <p>Dedpool Yoohhhooooo!!!</p>
-                        </div>
-                        <div class="slider__item" ref="sliderItem">
-                            <img src="img/dad.png" alt="">
+                        <div class="slider__item" ref="sliderItem" v-for="image,i in images" :key='i'>
+                            <img :src="image.way" alt="">
                             <p>Dedpool Yoohhhooooo!!!</p>
                         </div>
                     </div>
